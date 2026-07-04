@@ -7,7 +7,7 @@ cask "vault" do
   desc "Halftone pixel HUD that wraps Claude Code — repos, Obsidian vault, command deck, clay critter"
   homepage "https://github.com/kyim50/vault-hud"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "vault.app"
 
